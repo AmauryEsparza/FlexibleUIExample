@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListFragmentExample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <array name="star_wars_characters">
+        <item>R2D2</item>
+        <item>Luke Skywalker</item>
+        <item>Yoda</item>
+        <item>Obi-Wan</item>
+    </array>
+
+</resources>
