@@ -15,6 +15,12 @@ import android.widget.Toast;
 
 public class MyListFragment extends ListFragment implements AdapterView.OnItemClickListener{
 
+    CommunicatorInterface communicator;
+
+    public void setCommunicator(CommunicatorInterface communicator){
+        this.communicator = communicator;
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
         return inflater.inflate(R.layout.list_fragment, container, false);
@@ -30,8 +36,13 @@ public class MyListFragment extends ListFragment implements AdapterView.OnItemCl
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l){
+        communicator.respond(i);
         Toast.makeText(getActivity(), "Item "+i, Toast.LENGTH_LONG).show();
 
+    }
+
+    public interface CommunicatorInterface{
+        public void respond(int index);
     }
 
 }

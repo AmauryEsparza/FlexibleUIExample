@@ -12,4 +12,11 @@
         <item>Obi-Wan</item>
     </array>
 
+    <array name="descriptions">
+        <item>Astromech droid that appears in all six Star Wars films and in the Star Wars Expanded Universe</item>
+        <item>Jedi whose fall and redemption are portrayed in the Star Wars films. His master was Obi-Wan Kenobi.</item>
+        <item>Jedi master who trained Count Dooku and Luke Skywalker. His homeworld is unknown, but he goes into exile on Dagobah after the fall of the Republic in Star Wars Episode III: Revenge of the Sith.</item>
+        <item></item>
+    </array>
+
 </resources>
